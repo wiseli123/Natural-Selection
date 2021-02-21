@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+main {
+    text-align: center;
+    color: black;
+}
+
+div.hero {
+    height: 800px;
+    background-color: #012a4a;
+}
+
+img {
+    height: 50px;
+}
+
+.hero>section {
+    background-color: #012a4a;
+}
+
+.menu>img {
+    height: 30px;
+}
+
+.logo {
+    font-size: 60px;
+    color: #fff;
+    flex-grow: 4;
+    padding: 20px;
+}
+
+.cart,
+.profile,
+.menu {
+    margin: 20px;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.hero nav {
+    display: flex;
+    align-items: middle;
+    flex-direction: row;
+    /* background-color: #012a4a; */
+}
+
+.hero section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 50px auto;
+    font-size: 96px;
+    font-weight: 400;
+    font-family: 'Newsreader', serif;
+    color: #f8f9fa;
+}
+
+.container h3 {
+    display: inline-block;
+    position: relative;
+    font-family: 'Newsreader', serif;
+    font-size: 45px;
+    font-weight: 300;
+    color: #f8f9fa;
+}
+
+section>div.container {
+    text-align: center;
+}
+
+.search form {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    background-color: #f8f9fa;
+    color: #f8f9fa;
+    height: 50px;
+    width: 500px;
+}
+
+.loupe img {
+    height: 30px;
+}
+
+input[type="search"] {
+    appearance: none;
+    height: 50px;
+    background-color: #f8f9fa;
+    border: solid white 1px;
+    flex: 1;
+}
+
+h4 {
+    font-family: 'Newsreader', serif;
+    font-weight: 200;
+    font-size: 27px;
+    color: #f8f9fa;
+}
+
+a {
+    color: #409fff;
+    text-decoration: underline #409fff 2px;
+}
+
+div.btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    background-color: #0d64bb;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+div.btn:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 10px #e1f0ff;
+    background-color: #1d81e6;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+}
+
+.featured h2 {
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Newsreader', serif;
+}
